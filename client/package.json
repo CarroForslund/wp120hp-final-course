@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "dependencies": {
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "@babel/core": "^7.4.0",
+    "babel-jest": "^24.5.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "jest": "^26.6.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.4"
+  }
+}

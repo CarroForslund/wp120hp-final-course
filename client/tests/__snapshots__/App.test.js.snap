@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App shows "Welcome to Equi Translation App" 1`] = `
+Array [
+  <div>
+    <header>
+      <img
+        alt="Equi Translation App"
+        className="undefined undefined"
+        src="/images/head-icon-6529.png"
+      />
+      <h1>
+        Equi Translation App
+      </h1>
+    </header>
+    <main>
+      <h2>
+        Welcome to Equi Translation App
+      </h2>
+      <p>
+        Here can you look for existing Swedish/English translations of horse related words and phrases, and add missing ones to the library. Note that this app is still under development.
+      </p>
+      <div>
+        <a
+          href="/translations"
+        >
+          <h3>
+            View translations →
+          </h3>
+          <p>
+            See a list of all the words added to the library.
+            .
+          </p>
+        </a>
+        <a
+          href="/translations/add"
+        >
+          <h3>
+            Add new →
+          </h3>
+          <p>
+            Here you can add a new translation to the library.
+            .
+          </p>
+        </a>
+      </div>
+    </main>
+  </div>,
+  <footer>
+    <a
+      href="https://codingcaroline.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Powered by Coding Caroline
+    </a>
+  </footer>,
+]
+`;
